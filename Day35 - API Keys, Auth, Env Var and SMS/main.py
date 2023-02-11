@@ -1,12 +1,18 @@
 import requests
+from twilio.rest import Client
 
 MY_LAT = 50.139769
 MY_LONG = 14.519833
 API_KEY = "7e9c87e8780a5b90b8b2fe39e5068592"
 
+# Twilio creds
+account_sid = "AC2773e572f6feb9470c4e9a7eddf05007"
+auth_token = "49e8c717470f70165646e58dd8597cc8"
+
+
 parameters = {
-    "lat": 31.088900,
-    "lon": 30.390039,
+    "lat": 46.347141,
+    "lon": 48.026459,
     "exclude": "current,minutely,daily",
     "appid": API_KEY,
 }
@@ -28,4 +34,12 @@ for hour_data in weather_slice:
         will_rain = True
 
 if will_rain:
-    print("Bring an umbrella")
+    # Twilio Client
+    client = Client(account_sid, auth_token)
+    message = client.messages.create(
+        body="It's going to rain today. Remember to bring an ☔️",
+        from_="+16089797209",
+        to="+420776427177"
+    )
+
+    print(message.status)
