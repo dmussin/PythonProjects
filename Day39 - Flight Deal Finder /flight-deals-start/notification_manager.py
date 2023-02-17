@@ -6,9 +6,6 @@ PASSWORD = "ffvjputzmmtqvokq"
 
 # This class is responsible for sending notifications with the deal flight details.
 class NotificationManager:
-    def __int__(self):
-        pass
-
     def send_email(self, message):
         self.server = smtplib.SMTP("smtp.gmail.com")
         self.server.ehlo()

@@ -36,7 +36,10 @@ for destination in sheet_data:
         to_time=six_month_from_today
     )
 
-    if flight.price < destination["lowestPrice"]:
-        notification_manager.send_email(
-            message=f"Subject:Low price alert! \n\nLow price alert! Only ${flight.price} to fly from {flight.origin_city}-{flight.origin_airport} to {flight.destination_city}-{flight.destination_airport}, from {flight.out_date} to {flight.return_date}."
-        )
+    try:
+        if flight.price < destination["lowestPrice"]:
+            notification_manager.send_email(
+                message=f"Subject:Low price alert! \n\nLow price alert! Only ${flight.price} to fly from {flight.origin_city}-{flight.origin_airport} to {flight.destination_city}-{flight.destination_airport}, from {flight.out_date} to {flight.return_date}."
+            )
+    except AttributeError:
+        print("No Price Found")
