@@ -1,0 +1,28 @@
+<style>
+        p{
+            color: red;
+        }
+
+        hr{
+            border-style: none;
+            border-top-style: dotted;
+            border-color: #F0A04B;
+            border-width: 5px;
+            width: 5%;
+        }
+
+        h1, h2, h3{
+            color: #183A1D;
+
+        }
+
+        body{
+        background-color: #FEFBE9;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        .it {
+        color: #F0A04B;
+        }
+
+</style>
