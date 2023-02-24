@@ -6,12 +6,12 @@ import smtplib
 
 # gmail
 EMAIL = "python.musin@gmail.com"
-PASSWORD = "zhzzcbaoicbihxpu"
+PASSWORD = ""
 URL = "https://www.amazon.de/-/en/Cobear-Customisable-Leather-Non-Slip-Waterproof/dp/B0BKFQRJ9V/ref=psdc_79899031_t3_B0BLRTVTZV"
 
 
 headers = {
-    #"Accept-line": "sofman-4pyxfo-Vurdog",
+    #"Accept-line": "zhzzcbaoicbihxpu",
     "Accept-Language": "en-GB,en;q=0.9",
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15"
 }
