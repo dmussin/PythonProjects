@@ -14,7 +14,7 @@ EMAIL = "python.musin@gmail.com"
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 driver.get("https://tinder.com/")
-PW = "Dony1319LKS5/"
+PW = "***PASSWORD****"
 
 # language = driver.find_element(By.XPATH, '//*[@id="c-60880778"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/a/div[2]/div[2]')
 # language.click()

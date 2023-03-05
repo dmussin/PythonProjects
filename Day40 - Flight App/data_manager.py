@@ -1,7 +1,7 @@
 import requests
 
 # Sheety
-TOKEN = "xrN)6dwdD!#2K6(sS"
+TOKEN = "****SHEETY TOKEN***"
 
 # Sheety endpoint
 SHEETY_ENDPOINT = "https://api.sheety.co/e2a39474e80ca8c14960851cf34d9a2e/flightDeals10/prices"

@@ -2,7 +2,7 @@ import requests
 from datetime import *
 
 # Pixela Habbit Tracker
-TOKEN = "Jrnfjuuj332lIJH"
+TOKEN = "***PIXELA TOKEN***"
 USERNAME = "python-musin"
 GRAPH_ID = "graph1"
 

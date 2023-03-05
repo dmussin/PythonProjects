@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 EMAIL = "dan4ik377@gmail.com"
-PASSWORD = "dony37713071991lks"
+PASSWORD = "*****"
 
 driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3501762878&f_AL=true&f_E=2%2C3%2C4&f_PP=106978326&keywords=python%20developer&sortBy=R")
 # driver.get("https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fsearch%2F%3FcurrentJobId%3D3501762878%26f_AL%3Dtrue%26f_E%3D2%252C3%252C4%26f_PP%3D106978326%26keywords%3Dpython%2520developer%26sortBy%3DR&trk=public_jobs_nav-header-signin")

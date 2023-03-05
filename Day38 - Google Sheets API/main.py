@@ -6,7 +6,7 @@ APP_ID = "fff4d119377"
 API_KEY = "9fd104d88c0d7e38a587cf24f44f16e519"
 
 # Sheety
-TOKEN = "tBI#M0XSJQ0G15i13)"
+TOKEN = "***SHEETY TOKEN***)"
 
 nutritionix_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 

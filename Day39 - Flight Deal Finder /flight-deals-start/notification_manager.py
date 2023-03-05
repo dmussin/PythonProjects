@@ -1,7 +1,7 @@
 import smtplib
 
 EMAIL = "python.musin@gmail.com"
-PASSWORD = "ffvjputzmmtqvokq"
+PASSWORD = "***PASSWOPRD***"
 
 
 # This class is responsible for sending notifications with the deal flight details.

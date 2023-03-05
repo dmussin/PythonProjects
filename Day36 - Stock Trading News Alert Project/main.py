@@ -9,7 +9,7 @@ COIN_API_KEY = "3977761b-4265-4731-8882-24981f978f69"
 
 # Twilio creds
 account_sid = "AC2773e572f6feb9470c4e9a7eddf05007"
-auth_token = "49e8c717470f70165646e58dd8597cc8"
+auth_token = "***TWILIO TOKEN****"
 
 
 

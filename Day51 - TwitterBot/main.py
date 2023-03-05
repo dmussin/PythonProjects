@@ -1,6 +1,6 @@
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.common.keys import Keys
@@ -31,10 +31,10 @@ class InternetSpeedTwitterBot:
         print("go")
         time.sleep(50)
 
-        self.back_to_test = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[8]/div/div/div[2]/a')
-        self.back_to_test.click()
-        print("back to test")
-        time.sleep(5)
+        # self.back_to_test = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[8]/div/div/div[2]/a')
+        # self.back_to_test.click()
+        # print("back to test")
+        # time.sleep(5)
 
         self.down = float(driver.find_element(By.XPATH, '/html/body/div[3]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[1]/div/div[2]/span').text)
         print(f"Download: {self.down}")
@@ -65,17 +65,17 @@ class InternetSpeedTwitterBot:
 
         time.sleep(3)
 
-        username_2 = driver.find_element(By.XPATH,
-                                         '//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input')
-        username_2.send_keys("pythonmusin")
-        username_2.send_keys(Keys.ENTER)
-        print("username_2")
+        # username_2 = driver.find_element(By.XPATH,
+        #                                  '//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input')
+        # username_2.send_keys("pythonmusin")
+        # username_2.send_keys(Keys.ENTER)
+        # print("username_2")
 
         time.sleep(3)
 
         password = driver.find_element(By.XPATH,
                                        '/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input')
-        password.send_keys("Dony1319LKS")
+        password.send_keys("**PASSWORD****")
         password.send_keys(Keys.ENTER)
         print("password typed")
 

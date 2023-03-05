@@ -7,7 +7,7 @@ API_KEY = "7e9c87e8780a5b90b8b2fe39e5068592"
 
 # Twilio creds
 account_sid = "AC2773e572f6feb9470c4e9a7eddf05007"
-auth_token = "49e8c717470f70165646e58dd8597cc8"
+auth_token = "***TWILIO TOKEN****"
 
 
 parameters = {
