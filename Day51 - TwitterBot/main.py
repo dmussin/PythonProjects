@@ -31,10 +31,10 @@ class InternetSpeedTwitterBot:
         print("go")
         time.sleep(50)
 
-        # self.back_to_test = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[8]/div/div/div[2]/a')
-        # self.back_to_test.click()
-        # print("back to test")
-        # time.sleep(5)
+        self.back_to_test = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[8]/div/div/div[2]/a')
+        self.back_to_test.click()
+        print("back to test")
+        time.sleep(5)
 
         self.down = float(driver.find_element(By.XPATH, '/html/body/div[3]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[1]/div/div[2]/span').text)
         print(f"Download: {self.down}")
@@ -48,7 +48,7 @@ class InternetSpeedTwitterBot:
         driver.get("https://www.twitter.com")
         print("twitter")
 
-        time.sleep(10)
+        time.sleep(14)
 
         self.log_in = driver.find_element(By.XPATH,
                                      '/html/body/div/div/div/div[1]/div/div[1]/div/div/div/div[2]/div[2]/div/div/div[1]/a')

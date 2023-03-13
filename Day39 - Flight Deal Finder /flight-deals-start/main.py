@@ -1,4 +1,4 @@
-# 4. Pass the data back to the main.py file, so that you can print the data from main.py
+# 4. Pass the data back to the hello.py file, so that you can print the data from hello.py
 from datetime import datetime, timedelta
 from data_manager import DataManager
 from flight_search import FlightSearch
