@@ -1,0 +1,156 @@
+<style>
+
+    p{
+            color: red;
+        }
+
+    body{
+        margin: auto;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    div{
+        background-color: #20c3c5;
+
+
+    }
+
+    h1{
+        font-size: 6rem;
+        color: #EAF6F6;
+        font-family: 'Caveat', cursive;
+        line-height: 2rem;
+    }
+
+    h2{
+        font-size: 3rem;
+        margin: 0;
+        color: #EAF6F6;
+        font-family: 'Caveat', cursive;
+    }
+
+    h3{
+        margin: 0;
+        color: #EAF6F6;
+        font-family: 'Caveat', cursive;
+    }
+
+    p{
+        font-family: 'Shantell Sans', cursive;
+        line-height: 2;
+    }
+
+    hr{
+            border-style: none;
+            border-top-style: dotted;
+            border-color: #ff6224;
+            border-width: 7px;
+            width: 5%;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+    .top-container{
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .middle-container{
+        margin: auto;
+    }
+
+    .bottom-container{
+        background-color: #ff6224;
+        padding: 10px; 0; 10px;
+        font-family: 'Caveat', cursive;
+        font-size: 1.8rem;
+    }
+
+    .it{
+        color: #ff6224;
+    }
+
+    .img{
+        padding-top: 40px;
+    }
+
+    .profile-img{
+        height: 200px;
+        widthL 200px;
+    }
+
+
+    .footer-link, .btn{
+       color: #EAF6F6;
+    }
+
+    .footer-p{
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+    .skill-row{
+        width: 50%;
+        margin: 5% auto 10% auto;
+        text-align: left;
+    }
+
+    .skills-img{
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .h2-skills{
+        margin-top: 40px;
+    }
+
+    .intro{
+        width: 30%;
+        margin: auto;
+    }
+
+    .contact-message{
+        width: 30%;
+        margin: 40px auto 30px;
+    }
+
+    .contact-me{
+        padding-bottom: 40px;
+    }
+
+
+   .btn {
+  background: #ff6224;
+  background-image: -webkit-linear-gradient(top, #ff6224, #cc410e);
+  background-image: -moz-linear-gradient(top, #ff6224, #cc410e);
+  background-image: -ms-linear-gradient(top, #ff6224, #cc410e);
+  background-image: -o-linear-gradient(top, #ff6224, #cc410e);
+  background-image: linear-gradient(to bottom, #ff6224, #cc410e);
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  font-family: 'Caveat', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f0a88d;
+  background-image: -webkit-linear-gradient(top, #f0a88d, #cf9d8b);
+  background-image: -moz-linear-gradient(top, #f0a88d, #cf9d8b);
+  background-image: -ms-linear-gradient(top, #f0a88d, #cf9d8b);
+  background-image: -o-linear-gradient(top, #f0a88d, #cf9d8b);
+  background-image: linear-gradient(to bottom, #f0a88d, #cf9d8b);
+  text-decoration: none;
+}
+
+
+
+</style>
