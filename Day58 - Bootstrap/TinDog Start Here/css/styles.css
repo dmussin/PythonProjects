@@ -1,12 +1,22 @@
 <style>
 
     p{
-            color: red;
+    color: red;
+    }
+
+
+
+
+
+
+    h1, h2, h3, h4,  h5{
+    font-family: 'Montserrat', sans-serif;
     }
 
     #title{
         background-color: #ff4c68;
         color: #fff;
+        text-align: left;
 
     }
 
@@ -26,10 +36,11 @@
 
       body{
         font-family: 'Montserrat', sans-serif;
+        text-align: center;
     }
 
     h2{
-        font-family: 'Montserrat', sans-serif;
+
         font-weight: bold;
         font-size: 3rem;
         line-height: 1.5;
@@ -82,7 +93,6 @@
 
     #features{
         margin: 10% 6%;
-        text-align: center;
         padding: 5%;
         background-color: #fff;
 
@@ -100,7 +110,7 @@
     }
 
     .h3-features{
-        font-family: 'Montserrat-Bold', sans-serif;
+
         font-weight: bold;
     }
 
@@ -117,7 +127,6 @@
 
     #testimonials{
         padding: 7% 15%;
-        text-align: center;
         background-color: #ef8172;
         color: #fff;
 
@@ -131,7 +140,6 @@
 
     #press{
         background-color: #ef8172;
-        text-align: center;
         padding-bottom: 3%;
     }
 
@@ -155,7 +163,6 @@
     /* Call to Action */
 
     #cta{
-        text-align: center;
         background-color: #ff4c68;
         padding: 6%;
 
@@ -176,7 +183,6 @@
 
 
     #footer{
-        text-align: center;
         padding: 6% 6% 3% 6%;
         font-size: 0.8rem;
 
