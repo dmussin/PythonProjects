@@ -7,6 +7,7 @@
     #title{
         background-color: #ff4c68;
         color: #fff;
+
     }
 
 
@@ -34,6 +35,8 @@
         line-height: 1.5;
 
     }
+
+
 
     /* Navigation Bar */
 
@@ -69,7 +72,10 @@
 
     .title-image{
         width: 80%;
-        transform: rotate(30deg);
+        transform: rotate(25deg);
+        padding: 0% 3%;
+
+
     }
 
     /* Features Section */
@@ -78,6 +84,9 @@
         margin: 10% 6%;
         text-align: center;
         padding: 5%;
+        background-color: #fff;
+
+
     }
 
     .font-awesome{
@@ -131,6 +140,66 @@
         margin: 20px 20px 50px;
     }
 
+
+    /*  Pricing  */
+
+    #pricing{
+        padding: 100px;
+    }
+
+    .pricing-column{
+        padding: 3% 2%;
+    }
+
+
+    /* Call to Action */
+
+    #cta{
+        text-align: center;
+        background-color: #ff4c68;
+        padding: 6%;
+
+
+    }
+
+    .cta-h3{
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-weight: bold;
+        font-size: 4rem;
+        line-height: 1.5;
+        color: #fff;
+        padding: 0 8%;
+    }
+
+
+    /* Footer */
+
+
+    #footer{
+        text-align: center;
+        padding: 6% 6% 3% 6%;
+        font-size: 0.8rem;
+
+    }
+
+    .social-icon{
+        margin: 20px 10px;
+    }
+
+    /* Media */
+
+    @media (max-width: 1028px) {
+
+        #title{
+            text-align: center;
+        }
+
+        .title-image {
+            transform: rotate(0);
+        }
+
+
+    }
 
 
 </style>
