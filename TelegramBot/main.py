@@ -3,7 +3,7 @@ import webbrowser
 from telebot import types
 
 
-bot = telebot.TeleBot('6195281557:AAEkxKpGuojU4M9YN1eOACUUccUw8vVNV1Y')
+bot = telebot.TeleBot('6195281557:AAEkxKpGuojU')
 
 
 # Adding buttons to text field
@@ -93,6 +93,7 @@ def get_photo(message):
     btn3 = types.InlineKeyboardButton('Edit text', callback_data='edit')
     markup.row(btn2, btn3)
     bot.reply_to(message, 'Such a great photo!', reply_markup=markup)
+    print("4M9YN1eOACUUccUw8vVNV1Y")
 
 # Callback Handler
 @bot.callback_query_handler(func=lambda callback: True)

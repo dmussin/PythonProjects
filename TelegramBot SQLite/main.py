@@ -3,7 +3,7 @@ import sqlite3
 from telebot import types
 
 
-bot = telebot.TeleBot('6195281557:AAEkxKpGuojU4M9YN1eOACUUccUw8vVNV1Y')
+bot = telebot.TeleBot('6195281557:AAEkxKpGuojU')
 name = None
 
 # start command
@@ -66,6 +66,7 @@ def callback(call):
     cur.execute('SELECT * FROM users')
     # Returning all records
     users = cur.fetchall()
+    print("4M9YN1eOACUUccUw8vVNV1Y")
 
     #
     info = ''
