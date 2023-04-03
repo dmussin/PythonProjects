@@ -14,7 +14,7 @@ import random
 import pandas
 
 MY_EMAIL = "python.musin@gmail.com"
-PASSOWORD = "ffvjputzmmtqvokq"
+PASSOWORD = ""
 
 # Todays day and month in tuple
 today = datetime.now()
